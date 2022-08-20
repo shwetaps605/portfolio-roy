@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-background-color:${ ({theme}) => theme.colors.contentContainer1Bg };
+export const HeaderContainer = styled.div`
+background-color:${ ({theme}) => theme.colors.footer };
 margin:auto;
 padding:20px 10px;
 max-width:100%;

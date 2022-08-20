@@ -3,6 +3,8 @@ const Theme = {
         headerContainerBg: "#016170",
         contentContainer1Bg:"#ffffff",
         contentContainer1Font:"#00e0c6",
+        fontColor1:"#9AF3FF",
+        fontColor2:"#e38b6b",
         footer:"#009393"
     },
     gradients: {

@@ -3,14 +3,8 @@ import './Navbar.styles.scss'
 
 
 const Navbar = () => {
-    const [collapse, setCollapse] = useState(false);
-
-    function handleMenuCollapse() {
-        setCollapse(!collapse)
-    }
 
     function handleClick(event) {
-        console.log(event);
         event.target.nextElementSibling.classList.toggle("open");
     }
 

@@ -1,9 +1,9 @@
-import { Container } from "./components/styled/Container.styled"
 import GlobalStyles from "./components/styled/Global";
 import { ThemeProvider } from 'styled-components'
 import Theme from "./components/styled/Theme";
-import Header from "./components/Header.component";
+import Header from "./components/header/Header.component";
 import Navbar from "./components/navbar/Navbar.component"; 
+import Skills from "./components/skills/skills.component";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <GlobalStyles/>
         <Navbar/>
         <Header/>
-        
+        <Skills/>
     </>
     </ThemeProvider>
     
